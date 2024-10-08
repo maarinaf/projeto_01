@@ -1,0 +1,175 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3d1b1  ; /* Um tom claro que remete ao sertão */
+    color: #8b5a2b; /* Cor marrom terroso */
+}
+
+/* Cabeçalho */
+header {
+    background: #8b5a2b; /* Cor marrom mais escura */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Navegação */
+nav {
+    margin: 20px 0;
+    
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #8b5a2b;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o cardápio */
+table{
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+/* Rodapé */
+footer {
+    background: #8b5a2b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#img_redonda{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.titulo-cardapio{
+    text-align: center;
+
+}
+
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    border-color: #8b5a2b;
+    padding: 10px 5px;
+    margin: 5px 300px;
+}
+
+#img_pequena{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+
+/*FORMULARIO */
+/* Estilos do Formulário */
+form.block {
+    max-width: 600px; /* Limita a largura do formulário */
+    margin: 20px auto; /* Centraliza o formulário */
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do formulário */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+label {
+    display: block; /* Coloca cada rótulo em uma nova linha */
+    margin: 10px 0 5px; /* Margem em torno dos rótulos */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Cantos arredondados */
+    margin-bottom: 15px; /* Margem inferior */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilo do Botão de Enviar */
+.btn-submit {
+    background-color: #8b5a2b; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição suave para a cor do fundo */
+}
+
+.btn-submit:hover {
+    background-color: #7a4b2b; /* Cor do botão ao passar o mouse */
+}
